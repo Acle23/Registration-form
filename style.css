@@ -128,7 +128,7 @@ input:invalid {
 
 @media screen and (max-device-width: 375px) {
     input:invalid {
-        background: url('icon-error.svg') no-repeat 260px 13px;
+        background: url('icon-error.svg') no-repeat 250px 13px;
         background-size: 20px;
         color:hsl(0, 100%, 60%);
     }
