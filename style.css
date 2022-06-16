@@ -9,7 +9,7 @@ body {
     background-image: url('bg-intro-desktop.png');
     background-color: hsl(0, 100%, 74%);
     overflow-x: hidden;
-    font-family: 'Poppins', cursive;
+    font-family: 'Poppins';
     color: #fff;
 }
 
@@ -161,6 +161,12 @@ button {
 
 span {
     font-weight: 700;
+}
+
+@media screen and (max-device-width: 375px) {
+    span {
+        font-weight: 700;
+    }
 }
 
 .info {
