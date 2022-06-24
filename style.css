@@ -13,7 +13,7 @@ body {
     color: #fff;
 }
 
-@media screen and (max-device-width: 375px){
+@media screen and (min-device-width: 375px){
     body {
         width: 100%;
         font-size: 16px;
@@ -38,7 +38,7 @@ a {
     padding: 20px 50px 12px 50px;
 }
 
-@media screen and (max-device-width: 375px) {
+@media screen and (min-device-width: 375px) {
     .wrapper {
         position: relative;
         display: flex;
@@ -53,7 +53,7 @@ a {
     padding-top: 5rem;
 }
 
-@media screen and (max-device-width: 375px) {
+@media screen and (min-device-width: 375px) {
     .item-1 {
         text-align: center;
     }
@@ -66,7 +66,7 @@ h1 {
     word-spacing: 0.1rem;
 }
 
-@media screen and (max-device-width: 375px) {
+@media screen and (min-device-width: 375px) {
     h1 {
         max-width: 375px;
         width: 100%;
@@ -99,7 +99,7 @@ h1 {
     margin-bottom: 16px;
 }
 
-@media screen and (max-device-width: 375px) {
+@media screen and (min-device-width: 375px) {
     .pricing {
         width: 100%;
         padding: 20px;
@@ -126,7 +126,7 @@ input:invalid {
     color: hsl(0, 100%, 60%);
 }
 
-@media screen and (max-device-width: 375px) {
+@media screen and (min-device-width: 375px) {
     input:invalid {
         background: url('icon-error.svg') no-repeat 250px 13px;
         background-size: 20px;
@@ -163,7 +163,7 @@ span {
     font-weight: 700;
 }
 
-@media screen and (max-device-width: 375px) {
+@media screen and (min-device-width: 375px) {
     span {
         font-weight: 700;
     }
@@ -173,7 +173,7 @@ span {
     font-size: 12px;
 }
 
-@media screen and (max-device-width: 375px) {
+@media screen and (min-device-width: 375px) {
     .info {
         max-width: 200px;
         width: 100%;
